@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 nav {
@@ -94,7 +94,7 @@ header {
 
 h1 {
   font-size: 56px;
-  color:#7342d6;
+  color: #7342d6;
   margin-bottom: 24px;
   text-align: center;
 }
@@ -124,4 +124,55 @@ button:active {
 
 .header__img--wrapper {
   padding: 20px;
+}
+
+.container {
+  padding: 56px 0;
+}
+
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* 
+
+HIGHLIGHTS 
+
+*/
+
+.highlight__wrapper {
+  display: flex;
+}
+
+.highlight {
+  padding: 0 24px;
+  width: calc(100% / 3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.highlight__para {
+  text-align: center;
+}
+
+.highlight__img {
+  border: 2px solid #7342d65d;
+  color: #7342d6;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+.highlight__subtitle {
+  font-size: 20px;
+  margin-bottom: 16px;
 }
